@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-ac"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS ac component"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_ac"
+path = "src/lib.rs"
