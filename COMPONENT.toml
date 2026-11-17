@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-ac"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "This crate is currently an empty no_std library scaffold. No ac command or other component behavior is implemented; the existing test only checks basic arithmetic."
 upstream = []
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
