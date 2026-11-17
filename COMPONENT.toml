@@ -3,12 +3,12 @@ name = "SigmaOS-ac"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "ac component"
+description = "This crate is currently an empty no_std library scaffold. No ac command or other component behavior is implemented; the existing test only checks basic arithmetic."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
